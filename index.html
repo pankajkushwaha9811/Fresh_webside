@@ -647,47 +647,10 @@
                             <textarea id="message" name="message" required></textarea>
                         </div>
                         <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
-                </div>
-            </section>
-        </div>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Pankaj Kumar. All rights reserved.</p>
             <p>Created with ❤️ by Pankaj Kumar</p>
             <p>📱 Contact: <strong>+91 9711490822</strong></p>
             <div class="social-links">
-                <a href="https://facebook.com" title="Facebook">f</a>
-                <a href="https://twitter.com" title="Twitter">𝕏</a>
-                <a href="https://linkedin.com" title="LinkedIn">in</a>
-                <a href="https://instagram.com" title="Instagram">📷</a>
-            </div>
-        </div>
-    </footer>
 
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                 = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Form submission
-        document.querySelector('.contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
         });
     </script>
 </body>
